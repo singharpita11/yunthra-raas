@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "name": "Test User",
+      "email": "test@nexus.com",
+      "passwordHash": "$2a$10$nsV3cRsixxFiljmkcfGbFuIX3FAcjUvaQc.NQG6W7bip8qBnIrkii",
+      "role": "user",
+      "id": "usr_0n394afad",
+      "createdAt": "2026-06-25T13:55:01.879Z"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "John Doe",
+      "email": "john@example.com",
+      "subject": "SaaS Project Inquiry",
+      "message": "We need a custom platform built.",
+      "id": "msg_k1qsfrerk",
+      "status": "unread",
+      "createdAt": "2026-06-25T13:56:30.148Z"
+    }
+  ],
+  "subscribers": [
+    {
+      "id": "sub_p282i4qzk",
+      "email": "subscriber@nexus-tech.com",
+      "subscribedAt": "2026-06-25T13:56:08.183Z"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "blog-1",
+      "title": "India Is Ready. So Is Yunthra.",
+      "slug": "india-is-ready-so-is-yunthra",
+      "summary": "India's push toward smart cities, rising hygiene standards post-COVID, and a growing demand for tech-driven services make 2026 the defining year for robotic cleaning adoption.",
+      "content": "India's push toward smart cities, rising hygiene standards post-COVID, and a growing demand for tech-driven services make 2026 the defining year for robotic cleaning adoption. AI is transforming RaaS by shifting it from simple pre-programmed automation to intelligent, autonomous systems capable of adapting to unstructured environments — with robots now able to analyze data in real time, optimize navigation, and continuously improve without constant human oversight. Yunthra is bringing this revolution to every Indian facility — from hospitals and hotels to malls and corporate offices.",
+      "category": "Industry",
+      "author": "Yunthra Team",
+      "image": "/images/blog_banner.png",
+      "readTime": "3 min read",
+      "publishedAt": "2026-06-25",
+      "featured": true
+    },
+    {
+      "id": "blog-2",
+      "title": "Billions Being Invested. For Good Reason.",
+      "slug": "billions-being-invested-for-good-reason",
+      "summary": "The global robotics market is expected to reach $88.3 billion, with the industry recording steady expansion driven by rising automation demand and labor efficiency requirements.",
+      "content": "The global robotics market is expected to reach $88.3 billion, with the industry recording steady expansion driven by rising automation demand, labor efficiency requirements, and advances in AI, sensing, and control systems. Robotics investments are at an all-time high, with robotics being a direct beneficiary of the excitement around AI — with public robotics companies outperforming the market. Yunthra is your gateway into this booming ecosystem.",
+      "category": "Market Trends",
+      "author": "Yunthra Team",
+      "image": "/images/blog_nextjs.png",
+      "readTime": "4 min read",
+      "publishedAt": "2026-06-22",
+      "featured": false
+    }
+  ]
+}
