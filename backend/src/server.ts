@@ -9,9 +9,13 @@ import authRoutes from './routes/auth.js';
 import blogRoutes from './routes/blog.js';
 import contactRoutes from './routes/contact.js';
 import newsletterRoutes from './routes/newsletter.js';
+import { db } from './db/client.js';
 
 // Load environment variables
 dotenv.config();
+
+// Connect to MongoDB
+db.connect();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
