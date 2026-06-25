@@ -62,10 +62,14 @@ app.use((err: any, req: Request, res: Response, next: NextFunction) => {
   });
 });
 
-// Start Server
-app.listen(PORT, () => {
-  console.log(`=========================================`);
-  console.log(`  NEXUS TECH API Server Running on port ${PORT}`);
-  console.log(`  Health check: http://localhost:${PORT}/api/health`);
-  console.log(`=========================================`);
-});
+// Start Server (only if not running in a Serverless environment like Netlify)
+if (process.env.NODE_ENV !== 'production' && !process.env.NETLIFY) {
+  app.listen(PORT, () => {
+    console.log(`=========================================`);
+    console.log(`  NEXUS TECH API Server Running on port ${PORT}`);
+    console.log(`  Health check: http://localhost:${PORT}/api/health`);
+    console.log(`=========================================`);
+  });
+}
+
+export default app;
